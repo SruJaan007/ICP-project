@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Car Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .car-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 20px 0;
+            display: flex;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .car-card img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .car-details {
+            padding: 20px;
+            flex-grow: 1;
+        }
+        .car-details h2 {
+            margin-top: 0;
+        }
+        .specs {
+            list-style-type: none;
+            padding: 0;
+        }
+        .specs li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Car Collection</h1>
+
+        <!-- Car 1 -->
+        <div class="car-card">
+            <img src="car1.jpg" alt="Car 1">
+            <div class="car-details">
+                <h2>Ferrari 488 GTB</h2>
+                <p>A high-performance supercar from Ferrari with an incredibly powerful V8 engine.</p>
+                <ul class="specs">
+                    <li><strong>Model Year:</strong> 2021</li>
+                    <li><strong>Engine:</strong> 3.9L V8 Twin-Turbo</li>
+                    <li><strong>Horsepower:</strong> 661 HP</li>
+                    <li><strong>Top Speed:</strong> 205 mph</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Car 2 -->
+        <div class="car-card">
+            <img src="car2.jpg" alt="Car 2">
+            <div class="car-details">
+                <h2>Lamborghini Aventador SVJ</h2>
+                <p>The Aventador SVJ is the ultimate Lamborghini, boasting extreme power and bold design.</p>
+                <ul class="specs">
+                    <li><strong>Model Year:</strong> 2020</li>
+                    <li><strong>Engine:</strong> 6.5L V12</li>
+                    <li><strong>Horsepower:</strong> 759 HP</li>
+                    <li><strong>Top Speed:</strong> 217 mph</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Car 3 -->
+        <div class="car-card">
+            <img src="car3.jpg" alt="Car 3">
+            <div class="car-details">
+                <h2>Bugatti Chiron</h2>
+                <p>One of the fastest cars in the world, the Bugatti Chiron redefines luxury and speed.</p>
+                <ul class="specs">
+                    <li><strong>Model Year:</strong> 2022</li>
+                    <li><strong>Engine:</strong> 8.0L W16 Quad-Turbo</li>
+                    <li><strong>Horsepower:</strong> 1500 HP</li>
+                    <li><strong>Top Speed:</strong> 261 mph</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
